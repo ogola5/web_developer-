@@ -1,0 +1,13 @@
+h1{
+    color: saddlebrown;
+    text-align: center;
+    size: auto;
+    font-size: 30px;
+}
+p{
+    color: green;
+    font-family: "Cambria Math";
+}
+body{
+    background-color: cyan;
+}
