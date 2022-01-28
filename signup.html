@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>sign up</title>
+  <link rel="stylesheet" href="sign.css">
+
+
+
+</head>
+<body class="container">
+<div class="container bg-primary">
+  <div class="header">
+    <a id="login"class="active" href="#login">login</a>
+
+
+  </div>
+  <div id="errorMsg"></div>
+  <div class="content">
+    <form class="login" name="loginForm" onsubmit="return validateloginForm() " method="post">
+      <input type="text"name="first name" id="logname" placeholder="last name">
+      <input type="password" name="password" id="logpassword" placeholder="password">
+      <div id="check">
+        <input type="checkbox" id="remember">
+
+        <label for="remember">Remember me</label>
+        <a href="bstrapcat.html">click for more info</a>
+
+      </div>
+      <br><br>
+      <input type="submit"value="login" > <br>
+
+      <a href="#">don't have acount?</a>
+    </form>
+
+  </div>
+
+
+  <p>Create Your Account.</p>
+  <hr>
+  <label class="first_name"><b>first name</b></label>
+  <input type="text" placeholder="first_name" name="first_name" required>
+
+  <label class="last_name"><b>last name</b></label>
+  <input type="text" placeholder="last_name" name="l_name" required>
+  <hr>
+  <label class="email"><b>Password</b></label>
+  <input type="text" placeholder="Enter password" name="pword" required>
+  <hr>
+  <label class="email"><b>confirm Password</b></label>
+  <input type="text" placeholder=" confirm_password" name="pword" required>
+
+  <label>
+    <input type="checkbox" checked="checked" name="remember" style="margin-bottom: 15px"> Remember
+  </label>
+  <div class="clearfix">
+    <button type="button" class="cancelbtn">cancel</button>
+    <button type="submit" class="signupbtn">Sign Up Now</button>
+
+  </div>
+
+
+
+</div>
+
+</body>
+</html>

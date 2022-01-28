@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HOSPITAL FORM</title>
+    <link rel="stylesheet" href="formstyle.css">
+
+</head>
+
+<body>
+<p><a href="#partA">go to partA</a></p>
+<p><a href="#partB"> got to partB</a></p>
+
+<h2 id="partA">partA</h2>
+<img src="img/hos1.jpg" class="hos1-img-top-center alt="...>
+<img src="img/hos1.jpg" class="hos1-img-top-left alt="...>
+<h3 style="text-align: center">Fill this form</h3>
+
+<form action="#">
+    <div>
+        <label >First name</label>
+        <input class="inputstyle" type="text" name="fname" placeholder="">
+
+    </div>
+
+    <div>
+        <label >Second name</label><br>
+        <input class="inputstyle" type="text" name="sname" placeholder="">
+    </div>
+
+    <div>
+        <label> phone number</label><br>
+        <input class="inputstyle" type="tel" name="pnumber" placeholder="">
+    </div>
+    <div>
+        <label> Email Address</label><br>
+        <input class="inputstyle" type="email" name="email" placeholder="">
+    </div>
+    <div>
+        <label> Date of Birth</label>
+        <input class="inputstyle" type="date" name="">
+    </div>
+    <div>
+        <label>nhif</label> <br>
+        <input class="inputstyle" type="url" name="nhiflink" placeholder="">
+    </div>
+    <div>
+        <label>paypal</label> <br>
+        <input class="inputstyle" type="url" name="plink" placeholder="">
+    </div>
+
+    <div>
+        <h3 id="partB">partB</h3>
+        <label > Location</label> <br>
+        <select class="inputstyle" name="location">
+            <option value="nairobi"> Nairobi</option>
+            <option value="mombasa"> Mombasa</option>
+            <option value="kakamega"> Kakamega</option>
+            <option value="homabay"> Homabay</option>
+
+        </select>
+    </div>
+    <div class="other inputs">
+        <label>Gender</label><br>
+        <input type="radio" value="female">
+        <label>Female</label>
+        <input type="radio" value="male">
+        <label> Male</label>
+        <input type="radio" value="other">
+        <label> Other</label>
+    </div>
+    <div class="otherinputs">
+        <label > patient's past visit history</label>
+        <input type="checkbox" value="one month">
+        <label> one month</label>
+        <input type="checkbox" value="two months">
+        <label> two months</label>
+        <input type="checkbox"value="three months">
+        <label> three months</label>
+        <input type="checkbox"value=" over six months">
+        <label> over six months</label>
+    </div>
+    <div class="otherinputs">
+        <label> specific disease</label><br>
+        <input type=""name="">
+
+    </div>
+    <div class="otherinputs">
+        <label> Any Other Info</label><br>
+        <textarea name="aoi" cols="40" rows="15"></textarea>
+    </div>
+    <div>
+        <input id="sub" type="submit" value="submit">
+    </div>
+
+
+</form>
+</body>
+</html>
